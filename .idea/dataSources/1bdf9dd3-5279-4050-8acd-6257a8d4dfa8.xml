@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="Events@localhost">
+  <database-model serializer="dbm" rdbms="MSSQL" format-version="4.0">
+    <root id="1"/>
+    <database id="2" parent="1" name="Events">
+      <ObjectId>13</ObjectId>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </database>
+    <database id="3" parent="1" name="master">
+      <ObjectId>1</ObjectId>
+    </database>
+    <database id="4" parent="1" name="tempdb">
+      <ObjectId>2</ObjectId>
+    </database>
+    <database id="5" parent="1" name="model">
+      <ObjectId>3</ObjectId>
+    </database>
+    <database id="6" parent="1" name="msdb">
+      <ObjectId>4</ObjectId>
+    </database>
+    <database id="7" parent="1" name="CWMD">
+      <ObjectId>5</ObjectId>
+    </database>
+    <database id="8" parent="1" name="Authentication">
+      <ObjectId>6</ObjectId>
+    </database>
+    <database id="9" parent="1" name="Jobs">
+      <ObjectId>7</ObjectId>
+    </database>
+    <database id="10" parent="1" name="Test">
+      <ObjectId>8</ObjectId>
+    </database>
+    <database id="11" parent="1" name="Travels">
+      <ObjectId>9</ObjectId>
+    </database>
+    <database id="12" parent="1" name="Books">
+      <ObjectId>10</ObjectId>
+    </database>
+    <database id="13" parent="1" name="Blogs">
+      <ObjectId>11</ObjectId>
+    </database>
+    <database id="14" parent="1" name="DDSM">
+      <ObjectId>12</ObjectId>
+    </database>
+    <schema id="15" parent="2" name="dbo">
+      <ObjectId>1</ObjectId>
+      <IntrospectionTimestamp>2017-05-14.14:34:03.510</IntrospectionTimestamp>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="16" parent="2" name="guest">
+      <ObjectId>2</ObjectId>
+    </schema>
+    <schema id="17" parent="2" name="INFORMATION_SCHEMA">
+      <ObjectId>3</ObjectId>
+    </schema>
+    <schema id="18" parent="2" name="sys">
+      <ObjectId>4</ObjectId>
+    </schema>
+    <schema id="19" parent="2" name="db_owner">
+      <ObjectId>16384</ObjectId>
+    </schema>
+    <schema id="20" parent="2" name="db_accessadmin">
+      <ObjectId>16385</ObjectId>
+    </schema>
+    <schema id="21" parent="2" name="db_securityadmin">
+      <ObjectId>16386</ObjectId>
+    </schema>
+    <schema id="22" parent="2" name="db_ddladmin">
+      <ObjectId>16387</ObjectId>
+    </schema>
+    <schema id="23" parent="2" name="db_backupoperator">
+      <ObjectId>16389</ObjectId>
+    </schema>
+    <schema id="24" parent="2" name="db_datareader">
+      <ObjectId>16390</ObjectId>
+    </schema>
+    <schema id="25" parent="2" name="db_datawriter">
+      <ObjectId>16391</ObjectId>
+    </schema>
+    <schema id="26" parent="2" name="db_denydatareader">
+      <ObjectId>16392</ObjectId>
+    </schema>
+    <schema id="27" parent="2" name="db_denydatawriter">
+      <ObjectId>16393</ObjectId>
+    </schema>
+    <table id="28" parent="15" name="Events">
+      <ObjectId>2105058535</ObjectId>
+      <CreatedTimestamp>2017-05-14.14:30:31.950</CreatedTimestamp>
+      <ModifiedTimestamp>2017-05-14.14:33:25.193</ModifiedTimestamp>
+    </table>
+    <table id="29" parent="15" name="Users">
+      <ObjectId>21575115</ObjectId>
+      <CreatedTimestamp>2017-05-14.14:30:31.990</CreatedTimestamp>
+      <ModifiedTimestamp>2017-05-14.14:32:31.527</ModifiedTimestamp>
+    </table>
+    <table id="30" parent="15" name="sysdiagrams">
+      <ObjectId>117575457</ObjectId>
+      <CreatedTimestamp>2017-05-14.14:31:05.313</CreatedTimestamp>
+      <ModifiedTimestamp>2017-05-14.14:31:05.317</ModifiedTimestamp>
+    </table>
+    <routine id="31" parent="15" name="fn_diagramobjects">
+      <ObjectId>293576084</ObjectId>
+      <CreatedTimestamp>2017-05-14.14:31:05.400</CreatedTimestamp>
+      <ModifiedTimestamp>2017-05-14.14:31:05.400</ModifiedTimestamp>
+      <RoutineKind>function</RoutineKind>
+      <RoutineType>scalar-fun</RoutineType>
+    </routine>
+    <routine id="32" parent="15" name="sp_alterdiagram">
+      <ObjectId>261575970</ObjectId>
+      <CreatedTimestamp>2017-05-14.14:31:05.400</CreatedTimestamp>
+      <ModifiedTimestamp>2017-05-14.14:31:05.400</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="33" parent="15" name="sp_creatediagram">
+      <ObjectId>229575856</ObjectId>
+      <CreatedTimestamp>2017-05-14.14:31:05.380</CreatedTimestamp>
+      <ModifiedTimestamp>2017-05-14.14:31:05.380</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="34" parent="15" name="sp_dropdiagram">
+      <ObjectId>277576027</ObjectId>
+      <CreatedTimestamp>2017-05-14.14:31:05.400</CreatedTimestamp>
+      <ModifiedTimestamp>2017-05-14.14:31:05.400</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="35" parent="15" name="sp_helpdiagramdefinition">
+      <ObjectId>213575799</ObjectId>
+      <CreatedTimestamp>2017-05-14.14:31:05.377</CreatedTimestamp>
+      <ModifiedTimestamp>2017-05-14.14:31:05.377</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="36" parent="15" name="sp_helpdiagrams">
+      <ObjectId>197575742</ObjectId>
+      <CreatedTimestamp>2017-05-14.14:31:05.313</CreatedTimestamp>
+      <ModifiedTimestamp>2017-05-14.14:31:05.313</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="37" parent="15" name="sp_renamediagram">
+      <ObjectId>245575913</ObjectId>
+      <CreatedTimestamp>2017-05-14.14:31:05.400</CreatedTimestamp>
+      <ModifiedTimestamp>2017-05-14.14:31:05.400</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="38" parent="15" name="sp_upgraddiagrams">
+      <ObjectId>101575400</ObjectId>
+      <CreatedTimestamp>2017-05-14.14:31:05.297</CreatedTimestamp>
+      <ModifiedTimestamp>2017-05-14.14:31:05.297</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <column id="39" parent="28" name="id">
+      <Position>1</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="40" parent="28" name="name">
+      <Position>2</Position>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="41" parent="28" name="description">
+      <Position>3</Position>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="42" parent="28" name="PK__Events__3213E83F7F60ED59">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="43" parent="28" name="PK__Events__3213E83F7F60ED59">
+      <ObjectId>5575058</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2017-05-14.14:30:31.983</CreatedTimestamp>
+      <ModifiedTimestamp>2017-05-14.14:30:31.983</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK__Events__3213E83F7F60ED59</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="44" parent="29" name="id">
+      <Position>1</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="45" parent="29" name="name">
+      <Position>2</Position>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="46" parent="29" name="eventId">
+      <Position>4</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="47" parent="29" name="PK__Users__3213E83F03317E3D">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="48" parent="29" name="PK__Users__3213E83F03317E3D">
+      <ObjectId>69575286</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2017-05-14.14:30:31.993</CreatedTimestamp>
+      <ModifiedTimestamp>2017-05-14.14:30:31.993</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK__Users__3213E83F03317E3D</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="49" parent="29" name="FK__Users__eventId__0519C6AF">
+      <ObjectId>85575343</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2017-05-14.14:30:31.993</CreatedTimestamp>
+      <ModifiedTimestamp>2017-05-14.14:30:31.993</ModifiedTimestamp>
+      <ColNames>eventId</ColNames>
+      <RefTableName>Events</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="50" parent="30" name="name">
+      <Position>1</Position>
+      <DataType>sysname|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="51" parent="30" name="principal_id">
+      <Position>2</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="52" parent="30" name="diagram_id">
+      <Position>3</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="53" parent="30" name="version">
+      <Position>4</Position>
+      <DataType>int|0</DataType>
+    </column>
+    <column id="54" parent="30" name="definition">
+      <Position>5</Position>
+      <DataType>varbinary|0</DataType>
+    </column>
+    <index id="55" parent="30" name="PK__sysdiagr__C2B05B6108EA5793">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>diagram_id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="56" parent="30" name="UK_principal_name">
+      <Position>2</Position>
+      <ColNames>principal_id
+name</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="57" parent="30" name="PK__sysdiagr__C2B05B6108EA5793">
+      <ObjectId>165575628</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2017-05-14.14:31:05.313</CreatedTimestamp>
+      <ModifiedTimestamp>2017-05-14.14:31:05.313</ModifiedTimestamp>
+      <ColNames>diagram_id</ColNames>
+      <UnderlyingIndexName>PK__sysdiagr__C2B05B6108EA5793</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="58" parent="30" name="UK_principal_name">
+      <ObjectId>181575685</ObjectId>
+      <CreatedTimestamp>2017-05-14.14:31:05.313</CreatedTimestamp>
+      <ModifiedTimestamp>2017-05-14.14:31:05.313</ModifiedTimestamp>
+      <ColNames>principal_id
+name</ColNames>
+      <UnderlyingIndexName>UK_principal_name</UnderlyingIndexName>
+    </key>
+    <argument id="59" parent="31">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="60" parent="32" name="@diagramname">
+      <DataType>sysname|0</DataType>
+    </argument>
+    <argument id="61" parent="32" name="@owner_id">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="62" parent="32" name="@version">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="63" parent="32" name="@definition">
+      <DataType>varbinary|0</DataType>
+    </argument>
+    <argument id="64" parent="33" name="@diagramname">
+      <DataType>sysname|0</DataType>
+    </argument>
+    <argument id="65" parent="33" name="@owner_id">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="66" parent="33" name="@version">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="67" parent="33" name="@definition">
+      <DataType>varbinary|0</DataType>
+    </argument>
+    <argument id="68" parent="34" name="@diagramname">
+      <DataType>sysname|0</DataType>
+    </argument>
+    <argument id="69" parent="34" name="@owner_id">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="70" parent="35" name="@diagramname">
+      <DataType>sysname|0</DataType>
+    </argument>
+    <argument id="71" parent="35" name="@owner_id">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="72" parent="36" name="@diagramname">
+      <DataType>sysname|0</DataType>
+    </argument>
+    <argument id="73" parent="36" name="@owner_id">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="74" parent="37" name="@diagramname">
+      <DataType>sysname|0</DataType>
+    </argument>
+    <argument id="75" parent="37" name="@owner_id">
+      <DataType>int|0</DataType>
+    </argument>
+    <argument id="76" parent="37" name="@new_diagramname">
+      <DataType>sysname|0</DataType>
+    </argument>
+  </database-model>
+</dataSource>
